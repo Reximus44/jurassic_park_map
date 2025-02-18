@@ -1,12 +1,16 @@
-.footer {
+.header {
   display: flex;
   justify-content: space-between;
 }
 
-.footer__author {
+.header__logo {
+  height: 75px;
+  width: 75px;
+}
+.header__title {
   align-self: center;
 }
 
-.footer__year {
+.header__tour-guide {
   align-self: center;
 }

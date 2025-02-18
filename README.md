@@ -1,8 +1,7 @@
-# React + Vite
+# Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A final project for TripleTen's software engineering course. This project is a front-end application using the React library with Vite scaffolding.
 
-Currently, two official plugins are available:
+# Project Details
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is designed to be a mock representation of an interactive website to be used by guests visiting the hit new attraction Jurassic Park©. The site offers an interractive map that guests can use to access detailed information on the parks various attractions, as well as a virtual tour going over the finer points of the park including safety and accomodations for those still *on the fence* about buying tickets.

@@ -1,0 +1,99 @@
+.main {
+  background-image: url("../../assets/isla_nublar.png");
+  width: 99vw;
+  background-color: rgba(23, 90, 98, 99);
+  height: 1200px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+}
+
+.main__btn {
+  position: absolute;
+}
+
+.main__btn_baryonyx {
+  top: 495px;
+  right: 605px;
+  background-color: transparent;
+  border: none;
+}
+
+.main__btn_brachiosaurous {
+  top: 400px;
+  right: 890px;
+  background-color: transparent;
+  border: none;
+}
+
+.main__btn_dilophosaurous {
+  top: 455px;
+  right: 920px;
+  background-color: transparent;
+  border: none;
+}
+
+.main__btn_gallimimus {
+  top: 319px;
+  right: 821px;
+  background-color: transparent;
+  border: none;
+}
+
+.main__btn_herrerasaurous {
+  top: 336px;
+  right: 920px;
+  background-color: transparent;
+  border: none;
+}
+
+.main__btn_metriacanthosaurous {
+  top: 240px;
+  right: 653px;
+  background-color: transparent;
+  border: none;
+}
+
+.main__btn_parasaurolophus {
+  top: 549px;
+  right: 797px;
+  background-color: transparent;
+  border: none;
+}
+
+.main__btn_proceratosaurous {
+  top: 433px;
+  right: 633px;
+  background-color: transparent;
+  border: none;
+}
+
+.main__btn_segisaurous {
+  top: 660px;
+  right: 800px;
+  background-color: transparent;
+  border: none;
+}
+
+.main__btn_triceratops {
+  top: 269px;
+  right: 740px;
+  background-color: transparent;
+  border: none;
+}
+
+.main__btn_tyranosaurus {
+  top: 390px;
+  right: 745px;
+  background-color: transparent;
+  border: none;
+}
+
+.main__btn_velociraptor {
+  top: 467px;
+  right: 745px;
+  background-color: transparent;
+  border: none;
+}
