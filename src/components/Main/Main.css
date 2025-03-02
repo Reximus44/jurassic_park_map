@@ -1,99 +1,114 @@
 .main {
-  background-image: url("../../assets/isla_nublar.png");
-  width: 99vw;
   background-color: #0e3863;
-  height: 1200px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
   position: relative;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
 }
 
-.main__btn {
+.map {
+  background-image: url(/src/assets/isla_nublar.png);
+  width: calc(var(--scale) * 978px);
+  height: calc(var(--scale) * 1304px);
+  background-size: contain;
+  position: relative;
+  margin: 0 auto;
+  --scale: 1;
+}
+
+.map__btn {
   position: absolute;
-}
-
-.main__btn_baryonyx {
-  top: 495px;
-  right: 605px;
   background-color: transparent;
   border: none;
 }
 
-.main__btn_brachiosaurous {
-  top: 400px;
-  right: 890px;
-  background-color: transparent;
-  border: none;
+.map__btn_baryonyx {
+  top: calc(var(--scale) * 530px);
+  right: calc(var(--scale) * 111px);
 }
 
-.main__btn_dilophosaurous {
-  top: 455px;
-  right: 920px;
-  background-color: transparent;
-  border: none;
+.map__btn_brachiosaurus {
+  top: calc(var(--scale) * 440px);
+  right: calc(var(--scale) * 430px);
 }
 
-.main__btn_gallimimus {
-  top: 319px;
-  right: 821px;
-  background-color: transparent;
-  border: none;
+.map__btn_dilophosaurus {
+  top: calc(var(--scale) * 497px);
+  right: calc(var(--scale) * 463px);
 }
 
-.main__btn_herrerasaurous {
-  top: 336px;
-  right: 920px;
-  background-color: transparent;
-  border: none;
+.map__btn_gallimimus {
+  top: calc(var(--scale) * 353px);
+  right: calc(var(--scale) * 363px);
 }
 
-.main__btn_metriacanthosaurous {
-  top: 240px;
-  right: 653px;
-  background-color: transparent;
-  border: none;
+.map__btn_herrerasaurus {
+  top: calc(var(--scale) * 372px);
+  right: calc(var(--scale) * 463px);
 }
 
-.main__btn_parasaurolophus {
-  top: 549px;
-  right: 797px;
-  background-color: transparent;
-  border: none;
+.map__btn_metriacanthosaurus {
+  top: calc(var(--scale) * 265px);
+  right: calc(var(--scale) * 174px);
+}
+.map__btn img {
+  width: calc(var(--scale) * 42px);
+  height: calc(var(--scale) * 42px);
 }
 
-.main__btn_proceratosaurous {
-  top: 433px;
-  right: 633px;
-  background-color: transparent;
-  border: none;
+.map__btn_parasaurolophus {
+  top: calc(var(--scale) * 619px);
+  right: calc(var(--scale) * 295px);
 }
 
-.main__btn_segisaurous {
-  top: 660px;
-  right: 800px;
-  background-color: transparent;
-  border: none;
+.map__btn_proceratosaurus {
+  top: calc(var(--scale) * 482px);
+  right: calc(var(--scale) * 152px);
 }
 
-.main__btn_triceratops {
-  top: 269px;
-  right: 740px;
-  background-color: transparent;
-  border: none;
+.map__btn_segisaurus {
+  top: calc(var(--scale) * 725px);
+  right: calc(var(--scale) * 332px);
 }
 
-.main__btn_tyranosaurus {
-  top: 390px;
-  right: 745px;
-  background-color: transparent;
-  border: none;
+.map__btn_triceratops {
+  top: calc(var(--scale) * 295px);
+  right: calc(var(--scale) * 272px);
 }
 
-.main__btn_velociraptor {
-  top: 467px;
-  right: 745px;
-  background-color: transparent;
-  border: none;
+.map__btn_tyrannosaurus {
+  top: calc(var(--scale) * 418px);
+  right: calc(var(--scale) * 267px);
+}
+
+.map__btn_velociraptor {
+  top: calc(var(--scale) * 514px);
+  right: calc(var(--scale) * 253px);
+}
+
+@media screen and (max-width: 1000px) {
+  .map {
+    background-image: url(/src/assets/isla_nublar.png);
+    --scale: 0.7;
+    position: relative;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .map {
+    --scale: 0.5;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .map {
+    --scale: 0.4;
+  }
 }
