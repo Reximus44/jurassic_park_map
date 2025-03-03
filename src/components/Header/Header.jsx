@@ -3,13 +3,13 @@ import logo from "../../assets/jurassic-park-logo.svg";
 import WeatherCard from "../WeatherCard/WeatherCard";
 import { Link } from "react-router-dom";
 
-// Renderes page title, logo, and the weather card component
+// Renders page title, logo, and the weather card component
 
 function Header({ weatherData }) {
   return (
     <header className="header">
       <Link to="/">
-        <img className="header__logo" src={logo} alt="jurrasic park logo" />
+        <img className="header__logo" src={logo} alt="jurassic park logo" />
       </Link>
       <p className="header__title">WELCOME TO JURASSIC PARK</p>
       <WeatherCard weatherData={weatherData} />

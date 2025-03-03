@@ -32,73 +32,73 @@ export const modalConfig = [
   {
     title: "Baryonyx",
     description:
-      "Baryonyx was a theropod dinosaur that lived in the Barremian stage of the Early Cretaceous Period, around 130-125 million years ago. The first skeleton was discovered in 1983 in Surrey, England, and was named Baryonyx walkeri. Baryonyx was a large carnivorous dinosaur that grew up to 8.5 meters long and weighed around 1.2 tons. It had a long, crocodile-like snout with conical teeth, and its diet consisted of fish and other small animals. Baryonyx had a large claw on each hand, which it used to catch prey and tear",
+      "A medium sized carnivore, Baryonyx is a large spinosaurid dinosaur measuring up to 9 meters in length. Like its relatives Spinosaurus and Suchomimus, it can be distinguished by its elongated crocodile-like snout. Its name translates to 'Heavy Claw', based on the animals very large claw on its first finger. Despite living on land, Baryonyx is also primarily a piscivore – able to grab fish out of rivers with its long claws, and swim in shallow waters to catch prey with its long, serrated teeth. Fossil evidence shows both fish scales and juvenile Iguanodon bones in the stomach region, suggesting that Baryonyx was a very capable predator of fish, but it is also believed to be an effective scavenger, feeding on the carcasses of smaller dinosaurs on land. Baryonyx is distinctly crocodilian in appearance, with the base genome having a dark grey armoured back and a slightly grey underbelly.",
     image: "public/dinosaur-imgs/baryonyx_pic.png",
   },
   {
     title: "Brachiosaurus",
     description:
-      "Brachiosaurus was a sauropod dinosaur that lived in the Late Jurassic Period, around 154-153 million years ago. The first skeleton was discovered in 1900 in Colorado, USA, and was named Brachiosaurus altithorax. Brachiosaurus was one of the largest dinosaurs that ever lived, growing up to 23 meters long and weighing around 50 tons. It had a long neck and a small head with nostrils on the top of its skull. Brachiosaurus was a herbivore that fed on the leaves of tall trees, using its long neck to reach high branches. It had a long tail that helped it balance its body and a large body that stored food for long periods of time.",
+      "One of the most well-known dinosaurs to the public by virtue of its massive size, Brachiosaurus is a genus of herbivorous sauropod and one of the largest dinosaurs to have lived, weighing in at nearly 60 tons. This makes it a popular attraction for Jurassic Park visitors. Its name – which translates to 'Arm Lizard' – is derived from the incredible height of its humerus. Brachiosaurus is a massive sauropod dinosaur distinguished by its long, vertical neck and a comparatively short tail. Thanks to its long neck, Brachiosaurus can feed on leaves from the upper reaches of tall trees up to 16 meters high, eating up to 400kg of vegetation every day, while its vast size means any potential predators tend to steer clear. They are known to be warm blooded. It has a grey-brown color, like many other dinosaurs, and has a lighter brown underbelly.",
     image: "public/dinosaur-imgs/brachiosaurus_pic.png",
   },
   {
     title: "Dilophosaurus",
     description:
-      "Dilophosaurus was a theropod dinosaur that lived in the Early Jurassic Period, around 193-190 million years ago. The first skeleton was discovered in 1942 in Arizona, USA, and was named Dilophosaurus wetherilli. Dilophosaurus was a medium-sized carnivorous dinosaur that grew up to 6 meters long and weighed around 500 kilograms. It had a pair of crests on its skull that were used for display and communication, and its diet consisted of small animals and insects. Dilophosaurus had a long neck and tail, sharp teeth, and three-fingered hands with sharp claws.",
+      "As large as a modern brown bear, averaging around 3 meters in length and 300kg in weight, Dilophosaurus is a genus of large carnivorous theropod of the Early Jurassic period. The most distinctive features of the Dilophosaurus cloned by InGen are their two-crested heads, and a multi-colored frill, which extends itself when the animal is attacking, usually by spitting venom at its prey. Its name means 'Double-Crested Lizard', in reference to the two distinctive crests that sit atop its head, which are used to attract mates for reproduction. Dilophosaurus' slender build means it can move at high speeds, while its powerful jaw allows it to keep hold of prey as it struggles to escape. As an early predator it lacked forward-facing eyes, so would likely have relied on scent rather than vision for hunting. The base genome of the Dilophosaurus is primarily dark green, with red, yellow and white stripes adorning various parts of the body.",
     image: "public/dinosaur-imgs/dilophosaurus_pic.png",
   },
   {
     title: "Gallimimus",
     description:
-      "Gallimimus was an ornithomimid dinosaur that lived in the Late Cretaceous Period, around 70-65 million years ago. The first skeleton was discovered in 1963 in Mongolia, and was named Gallimimus bullatus. Gallimimus was a fast and agile dinosaur that grew up to 6 meters long and weighed around 440 kilograms. It had a long neck, long legs, and a long tail, and its diet consisted of small animals and insects. Gallimimus had a toothless beak, sharp claws, and a long, slender body that helped it run at high speeds.",
+      "The largest of the ornithomimid dinosaurs in the Evolution series, at around 450kg and just over 4.5 meters in length, Gallimimus is a genus of ostrich-like theropod dinosaur from the ornithomimidae family known for its speed – which has been compared to that of a cheetah. Its name translates to 'Chicken Mimic', in reference to its neck vertebrae, which are similar to those of chickens. Fast, agile, intelligent and with excellent vision, Gallimimus is well adapted to evading predators and catching its own prey, most likely having ate small creatures, eggs and maybe some plants. The base genome of Gallimimus has is primarily orange, with darker brown stripes running down its head, neck, and back.",
     image: "public/dinosaur-imgs/gallimimus_pic.png",
   },
   {
     title: "Herrerasaurus",
     description:
-      "Herrerasaurus was a theropod dinosaur that lived in the Late Triassic Period, around 231-228 million years ago. The first skeleton was discovered in 1959 in Argentina, and was named Herrerasaurus ischigualastensis. Herrerasaurus was one of the earliest dinosaurs that ever lived, and it was a small carnivorous dinosaur that grew up to 6 meters long and weighed around 350 kilograms. It had a long neck, sharp teeth, and three-fingered hands with sharp claws. Herrerasaurus had a long tail that helped it balance its body and a large body that stored food for long periods of time.",
+      "One of the oldest and earliest dinosaurs known, dating back to the Late Triassic period, Herrerasaurus is a relatively medium-sized, stocky and powerfully built carnivorous theropod, measuring between 4 and 6 meters in length and 200 to 400kg in weight. With a light frame that allow it to run very quickly and a long narrow skull with lots of large, jagged, serrated teeth that helps it to latch onto and tear into the flesh of its prey, Herrerasaurus feeds on smaller herbivores and has a flexible jaw with a special joint in its lower jaw that allows it to grip on to and hold down its prey with a vice-like grip. Based on its size, it likely hunted small and medium herbivores. Fossil evidence suggests that this dinosaur was capable of digesting bone. Unlike the other species of small carnivores (except Compsognathus), Herrerasaurus locks its jaws on small prey (especially goats) and uses its body momemtum to wrestle it to the ground. The base genome of the Herrerasaurus is green, with yellowish stripes across its body.",
     image: "public/dinosaur-imgs/herrerasaurus_pic.png",
   },
   {
     title: "Metriacanthosaurus",
     description:
-      "Metriacanthosaurus was a theropod dinosaur that lived in the Late Jurassic Period, around 166-164 million years ago. The first skeleton was discovered in 1923 in England, and was named Metriacanthosaurus parkeri. Metriacanthosaurus was a medium-sized carnivorous dinosaur that grew up to 8 meters long and weighed around 1 ton. It had a long, narrow skull with sharp teeth, and its diet consisted of small animals and insects. Metriacanthosaurus had a long neck and tail, sharp claws, and three-fingered hands with sharp claws.",
+      "Named after the spines on its vertebrae – the name translates to 'Moderately-Spined Lizard' – Metriacanthosaurus was a large theropod that existed and once hunted across Europe during the Late Jurassic period. Despite its relatively large size, 7.6 meters in length and a ton in weight, Metriacanthosaurus can reach speeds of up to 20 mph and preys on large herbivores. Comparatively little is known about this dinosaur compared to its contemporaries like Allosaurus. The base genome of Metriacanthosaurus has a brown body banded with darker brown stripes. It has green stripes on its head and mouth as well as green crests.",
     image: "public/dinosaur-imgs/metriacanthosaurus_pic.png",
   },
   {
     title: "Parasaurolophus",
     description:
-      "Parasaurolophus was a hadrosaurid dinosaur that lived in the Late Cretaceous Period, around 76-74 million years ago. The first skeleton was discovered in 1920 in Alberta, Canada, and was named Parasaurolophus walkeri. Parasaurolophus was a large herbivorous dinosaur that grew up to 10 meters long and weighed around 2 tons. It had a long crest on its skull that was used for communication and display, and its diet consisted of leaves, fruits, and other plant material. Parasaurolophus had a long neck and tail, a toothless beak, and a large body that stored food for long periods of time.",
+      "Among the most well-known member of the hadrosaurs, Parasaurolophus is an average sized hadrosaur native to North America, measuring around 9 meters in length, but is otherwise famously distinguished by its unique, prominent, curved crest that extends out from the back of its head. This distinctive crest gave the dinosaur its name, which translates to 'Near-Crested Lizard'. While it usually walks on four legs, it can rear up and move on two legs if it needs to run or reach food in high places. The base cosmetic gene of the Parasaurolophus has a light brown body, a white underbelly, a reddish back and crest, and dark brown stripes on its legs.",
     image: "public/dinosaur-imgs/parasaurolophus_pic.png",
   },
   {
     title: "Proceratosaurus",
     description:
-      "Proceratosaurus was a ceratosaurid dinosaur that lived in the Middle Jurassic Period, around 167-164 million years ago. The first skeleton was discovered in 1910 in England, and was named Proceratosaurus bradleyi. Proceratosaurus was a small carnivorous dinosaur that grew up to 3 meters long and weighed around 200 kilograms. It had a short, horned crest on its skull that was used for display and communication, and its diet consisted of small animals and insects. Proceratosaurus had a long neck and tail, sharp teeth, and three-fingered hands with sharp claws.",
+      "One of the earliest tyrannosauroids, Proceratosaurus is a relatively small carnivorous theropod dinosaur from the Middle Jurassic period and is notable for the bold, distinctive nasal crest on its snout. Due to this characteristic, this dinosaur genus was mistakenly identified as an ancestor of Ceratosaurus upon its discovery. This crest gave it its name, meaning 'Before Ceratosaurus'. As only a fragment of the crest is intact on the one known specimen, it is possible the crest could have been much larger, relative to skull size, than the Ceratosaurus' horn. However, further research has found that it is in fact an ancient relative of the mighty Tyrannosaurus, albeit much smaller at around 4 meters in length.",
     image: "public/dinosaur-imgs/proceratosaurus_pic.png",
   },
   {
     title: "Segisaurus",
     description:
-      "Segisaurus was a theropod dinosaur that lived in the Late Triassic Period, around 210-205 million years ago. The first skeleton was discovered in 1936 in Arizona, USA, and was named Segisaurus halli. Segisaurus was a small carnivorous dinosaur that grew up to 2 meters long and weighed around 50 kilograms. It had a long, narrow skull with sharp teeth, and its diet consisted of small animals and insects. Segisaurus had a long neck and tail, sharp claws, and three-fingered hands with sharp claws.",
+      "Scurrying through the sands of the Early Jurassic Period, Segisaurus is a small theropod (one of the smallest discovered) from the coelophysidae family, weighing between 10 and 15 pounds and growing to around one meter in length. Lightweight but with long arms and powerful legs for its size, Segisaurus is impressively agile and can run at rapid speed - a vital tool for escaping predators. However, being less fearsome than its larger brethren, it relies on speed and cunning to hunt its prey.",
     image: "public/dinosaur-imgs/segisaurus_pic.png",
   },
   {
     title: "Triceratops",
     description:
-      "Triceratops was a ceratopsid dinosaur that lived in the Late Cretaceous Period, around 68-66 million years ago. The first skeleton was discovered in 1887 in Wyoming, USA, and was named Triceratops horridus. Triceratops was a large herbivorous dinosaur that grew up to 9 meters long and weighed around 12 tons. It had a large frill on its skull, three horns on its face, and a beak-like mouth. Triceratops had a long neck and tail, a toothless beak, and a large body that stored food for long periods of time.",
+      "Among the largest of the ceratopsian family, the large bony neck frill and three horns on its head – which give rise to its name translating to 'Three-Horned Face' – serve to make Triceratops one of the most famous dinosaurs in the world, and this makes it a popular attraction. Similar in size to its relatives Pentaceratops and Torosaurus, Triceratops measures between 9 and 10 meters long and weighs well over 8 tons.[9] Triceratops is a herbivore, with its diet consisting mainly of ground level vegetation, although their size may have enabled them to knock over larger plants and trees to feed on. In 2010, a controversial theory was proposed that Triceratops was actually an immature form of Torosaurus, although this has yet to be proven. The base genome for Triceratops is a dirty light brown coloring.",
     image: "public/dinosaur-imgs/triceratops_pic.png",
   },
   {
     title: "Tyrannosaurus",
     description:
-      "Tyrannosaurus was a tyrannosaurid dinosaur that lived in the Late Cretaceous Period, around 68-66 million years ago. The first skeleton was discovered in 1902 in Montana, USA, and was named Tyrannosaurus rex. Tyrannosaurus was one of the largest carnivorous dinosaurs that ever lived, growing up to 12 meters long and weighing around 9 tons. It had a large head with powerful jaws and sharp teeth, and its diet consisted of large animals and other dinosaurs. Tyrannosaurus had a long tail that helped it balance its body and a large body that stored food for long periods of time.",
+      "The most famous of all dinosaurs and among the largest theropod dinosaurs of all time, measuring at around 14.5 meters in length and over eight tons in weight, Tyrannosaurus is a species of tyrannosaurid dinosaur from the Late Cretaceous Period. The apex predator of its time, it lived throughout western North America at the end of the Cretaceous period alongside other dinosaurs such as the ceratopsians Triceratops and Torosaurus, the hadrosaur Edmontosaurus, the armored Ankylosaurus, the pachycephalosaurs Pachycephalosaurus, Stygimoloch and Dracorex, the smaller theropod Troodon, and the ornithomimid Struthiomimus, making it one of the latest species of non-avian dinosaurs to evolve prior to the great extinction 66 million years ago. Tyrannosaurus enjoys a fearsome reputation around the world thanks to its size, power and aggression – a status borne out by its name, which translates to 'King of the Tyrant Lizards' – and to many, it represents the ultimate predator. The most familiar dinosaur in history, this magnificent bipedal carnivorous animal has long been at the heart of dinosaur attractions. Tyrannosaurus is known for its massive head with what is theorized have been the most powerful jaw known to science and rows of large, serrated teeth delivering the strongest bite to have ever existed on land. The base genome of the Tyrannosaurus is primarily dark brown.",
     image: "public/dinosaur-imgs/tyrannosaurus_pic.png",
   },
   {
     title: "Velociraptor",
     description:
-      "Velociraptor was a dromaeosaurid dinosaur that lived in the Late Cretaceous Period, around 75-71 million years ago. The first skeleton was discovered in 1923 in Mongolia, and was named Velociraptor mongoliensis. Velociraptor was a small carnivorous dinosaur that grew up to 2 meters long and weighed around 15 kilograms. It had a long, narrow skull with sharp teeth, and its diet consisted of small animals and insects. Velociraptor had a long neck and tail, sharp claws, and three-fingered hands with sharp claws.",
+      "Velociraptor (often just referred to as 'raptors') is among the larger dromeosaurids bred by InGen scientists, with features similar to its relatives such a Deinonychus, notably the large sickle claw on its foot. Its name translates to 'Swift Seizer'. Perhaps the most well-known member of the dromaeosaur family, Velociraptor's reputation as one of the most dangerous and terrifying dinosaurs comes not from its size – at just under 4 meters in length, it is dwarfed by many less intimidating genera – but its ferocity and intelligence. With its large, sharp teeth and sickle-shaped claws, Velociraptor is a highly efficient predator, preying upon plant-eating dinosaurs such as Protoceratops – although its relative lack of power means it is unlikely to attack large or armoured dinosaurs. The base cosmetic gene of the Velociraptor is green with various other shades of green creating spots and stripes along its body. Their history with InGen has been a troubled one, in part because they have been engineered much larger than their base genome, but also because they have proved to be smart and efficient hunters.",
     image: "public/dinosaur-imgs/velociraptor_pic.png",
   },
 ];
@@ -181,14 +181,3 @@ export const defaultWeatherOptions = {
     url: new URL("../assets/night/night.svg", import.meta.url).href,
   },
 };
-
-// I need a function that gets and sets information for modals and
-// then opens the modal with the correct information when a button is clicked.
-
-// "enter 4 files appjsx, main, dinomodal, modalconfig" and explain what each
-// of the files are and how you want them to work with eachouther
-// example: I need each button in main to be connected to one of my
-// objects from modalConfig so that when a button is clicked the
-// correct object is passed to the DinoModal component.
-// I also need the DinoModal component to be able to display the
-// correct information based on the object that is passed to it.
