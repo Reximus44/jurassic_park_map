@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 function Header({ weatherData }) {
   return (
     <header className="header">
-      <Link to="/">
+      <Link to="/" className="header__logo-link">
         <img className="header__logo" src={logo} alt="jurassic park logo" />
       </Link>
       <p className="header__title">WELCOME TO JURASSIC PARK</p>

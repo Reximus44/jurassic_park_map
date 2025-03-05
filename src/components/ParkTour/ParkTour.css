@@ -28,6 +28,6 @@
 
 .park-tour__image {
   align-self: center;
-  width: 50vw;
-  height: 50vh;
+  width: 75vw;
+  height: auto;
 }

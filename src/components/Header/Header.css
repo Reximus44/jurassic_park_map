@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 0 12px;
-  font-family: CabinetGrotesk;
+  font-family: JurassicPark-BL48; /*CabinetGrotesk*/
   gap: 10px;
   margin: 10px 0;
   color: #FBB901
@@ -13,17 +13,23 @@
   width: 75px;
   align-self: center;
 }
+
+.header__logo-link {
+  display: flex;
+}
+
 .header__title {
   align-self: center;
-  font-size: 20px;
+  font-size: 35px;
 }
 
 .header__tour-guide {
   align-self: center;
-  font-size: 20px;
+  font-size: 35px;
 }
 
 .header__tour-link {
+  display: flex;
   text-decoration: none;
   color: #FBB901;
 }

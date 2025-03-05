@@ -9,6 +9,7 @@
 .weather-card__temp {
   margin: 0;
   white-space: nowrap;
+  font-family: CabinetGrotesk;
 }
 
 .weather-card__image {
