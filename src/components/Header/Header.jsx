@@ -3,8 +3,7 @@ import logo from "../../assets/jurassic-park-logo.svg";
 import WeatherCard from "../WeatherCard/WeatherCard";
 import { Link } from "react-router-dom";
 
-// Renders page title, logo, and the weather card component
-
+// Renders page title, logo, and the WeatherCard component
 function Header({ weatherData }) {
   return (
     <header className="header">

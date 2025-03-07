@@ -2,6 +2,7 @@ import "./WeatherCard.css";
 import { weatherOptions, defaultWeatherOptions } from "../../utils/constants";
 import { useState } from "react";
 
+// WeatherCard component 
 function WeatherCard({ weatherData }) {
   const filteredOptions = weatherOptions.filter((option) => {
     return (

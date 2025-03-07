@@ -10,7 +10,6 @@ import { Routes, Route } from "react-router-dom";
 
 function App() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
-  const [modalData, setmodalData] = useState({});
   const [weatherData, setWeatherData] = useState({});
 
   const openModal = (data) => {

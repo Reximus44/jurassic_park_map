@@ -1,6 +1,8 @@
 import React from "react";
 import "./DinoModal.css";
 
+
+// DinoModal components that is populated by the modalConfig array
 export function DinoModal({ onClose, currentInfo, isOpen }) {
   function handleClose(event) {
     if (event.target.classList.contains("modal")) {

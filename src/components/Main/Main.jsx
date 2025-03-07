@@ -1,6 +1,6 @@
+import "./Main.css";
 import React from "react";
 import { useState } from "react";
-import "./Main.css";
 import { dinoImages } from "../../utils/constants";
 import { DinoModal } from "../DinoModal/DinoModal";
 import { modalConfig } from "../../utils/constants";
@@ -12,7 +12,7 @@ function Main({ openModal }) {
   const [currentInfo, setCurrentInfo] = useState({
     title: "",
     description: "",
-    image: "#",
+    image: "[]",
   });
 
   function onClose() {
@@ -22,9 +22,9 @@ function Main({ openModal }) {
   return (
     <main className="main">
       <section className="map">
-        
-      {/* The map function iterates over my modalConfig array and searches for the entry.title and coverts it 
-        to lowercase so that my object config key value can line-up with each specific className modifier  */}
+
+        {/* The map function iterates over the modalConfig array and searches for the entry.title and converts it 
+        to lowercase so that the returned key value can line-up with each specific dinosaur className modifier  */}
 
         {modalConfig.map((entry) => {
           return (

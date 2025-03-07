@@ -1,6 +1,14 @@
 import React from "react";
 import "./ParkTour.css";
 
+// Park tour images
+import fenceSecurity from "../../assets/park-tour-imgs/fence_security.png";
+import gift_shop from "../../assets/park-tour-imgs/jurassic-park-gift-shop.png";
+import tour_vehicles from "../../assets/park-tour-imgs/park_tour_vehicles.png";
+import tour_route from "../../assets/park-tour-imgs/park_tour.png";
+import visitor_center from "../../assets/park-tour-imgs/visitor_center.png";
+
+//The Part Tour route component 
 export function ParkTour() {
   return (
     <div className="park-tour">
@@ -20,7 +28,7 @@ export function ParkTour() {
       </p>
       <h2 className="park-tour__title">Fences</h2>
       <img
-        src="src\assets\park-tour-imgs\fence_security.png"
+        src={fenceSecurity}
         alt="an electric fence from Jurassic Park"
         className="park-tour__image"
       />
@@ -34,7 +42,7 @@ export function ParkTour() {
       </p>
       <h2 className="park-tour__title">Tour</h2>
       <img
-        src="src\assets\park-tour-imgs\visitor_center.png"
+        src={visitor_center}
         alt="the visitor center from Jurassic Park"
         className="park-tour__image"
       />
@@ -53,29 +61,29 @@ export function ParkTour() {
         dinosaurs in their natural habitats.
       </p>
       <img
-        src="src\assets\park-tour-imgs\park_tour_vehicles.png"
+        src={tour_vehicles}
         alt="the tour vehicles used in Jurassic Park"
         className="park-tour__image"
       />
       <img
-        src="src\assets\park-tour-imgs\park_tour.png"
+        src={tour_route}
         alt="the tour vehicles used in Jurassic Park next to a sign that reads dilophosaurus"
         className="park-tour__image"
       />
       <p className="park-tour__description">
         After your tour has completed you will be dropped off back at the
-        visitors center where you may proceed to any of the parks many
+        visitors center where you may proceed to any of the parks many other
         attractions including our five star restaurant and hotel. I personally
         recommend also visiting the gift shop on the way.
       </p>
       <img
-        src="src\assets\park-tour-imgs\jurassic-park-gift-shop.png"
+        src={gift_shop}
         alt="jurassic park gifts"
         className="park-tour__image"
       />
       <p className="park-tour__description">
         Thank you for taking this virtual tour with us and we hope to see you
-        soon! Tickets start at $3000 and we take credit
+        soon! Tickets start at $3000 and there are ATMs at the front entrance.
       </p>
     </div>
   );
