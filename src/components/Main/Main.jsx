@@ -12,7 +12,7 @@ function Main({ openModal }) {
   const [currentInfo, setCurrentInfo] = useState({
     title: "",
     description: "",
-    image: "[]",
+    image: "#",
   });
 
   function onClose() {
