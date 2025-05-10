@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 12px;
+  color: #FBB901;
+}
+
+.footer__author {
+  align-self: center;
+}
+
+.footer__year {
+  align-self: center;
+}
+
+@media screen and (max-width: 400px) {
+  .footer__author {
+    font-size: 14px;
+  }
+  .footer__year {
+    font-size: 14px;
+  }
+}

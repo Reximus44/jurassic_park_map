@@ -1,0 +1,114 @@
+.main {
+  background-color: #0e3863;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.map {
+  background-image: url(/src/assets/isla_nublar.png);
+  width: calc(var(--scale) * 978px);
+  height: calc(var(--scale) * 1304px);
+  background-size: contain;
+  position: relative;
+  margin: 0 auto;
+  --scale: 1;
+}
+
+.map__btn {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+}
+
+.map__btn_baryonyx {
+  top: calc(var(--scale) * 530px);
+  right: calc(var(--scale) * 111px);
+}
+
+.map__btn_brachiosaurus {
+  top: calc(var(--scale) * 440px);
+  right: calc(var(--scale) * 430px);
+}
+
+.map__btn_dilophosaurus {
+  top: calc(var(--scale) * 497px);
+  right: calc(var(--scale) * 463px);
+}
+
+.map__btn_gallimimus {
+  top: calc(var(--scale) * 353px);
+  right: calc(var(--scale) * 363px);
+}
+
+.map__btn_herrerasaurus {
+  top: calc(var(--scale) * 372px);
+  right: calc(var(--scale) * 463px);
+}
+
+.map__btn_metriacanthosaurus {
+  top: calc(var(--scale) * 265px);
+  right: calc(var(--scale) * 174px);
+}
+.map__btn img {
+  width: calc(var(--scale) * 42px);
+  height: calc(var(--scale) * 42px);
+}
+
+.map__btn_parasaurolophus {
+  top: calc(var(--scale) * 619px);
+  right: calc(var(--scale) * 295px);
+}
+
+.map__btn_proceratosaurus {
+  top: calc(var(--scale) * 482px);
+  right: calc(var(--scale) * 152px);
+}
+
+.map__btn_segisaurus {
+  top: calc(var(--scale) * 725px);
+  right: calc(var(--scale) * 332px);
+}
+
+.map__btn_triceratops {
+  top: calc(var(--scale) * 295px);
+  right: calc(var(--scale) * 272px);
+}
+
+.map__btn_tyrannosaurus {
+  top: calc(var(--scale) * 418px);
+  right: calc(var(--scale) * 267px);
+}
+
+.map__btn_velociraptor {
+  top: calc(var(--scale) * 514px);
+  right: calc(var(--scale) * 253px);
+}
+
+@media screen and (max-width: 1000px) {
+  .map {
+    background-image: url(/src/assets/isla_nublar.png);
+    --scale: 0.7;
+    position: relative;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .map {
+    --scale: 0.5;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .map {
+    --scale: 0.4;
+  }
+}

@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "CabinetGrotesk";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./CabinetGrotesk-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "CabinetGrotesk";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./CabinetGrotesk-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "JurassicPark-BL48";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./JurassicPark-BL48.ttf") format("truetype")
+}

@@ -1,0 +1,33 @@
+.park-tour {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 35px;
+  font-family: CabinetGrotesk;
+  gap: 20px;
+  margin: 10px 0;
+  flex-direction: column;
+  color: #fbb901;
+}
+
+.park-tour__title {
+  align-self: center;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.park-tour__description {
+  align-self: center;
+  font-size: 25px;
+}
+
+.park-tour__quote {
+  align-self: center;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.park-tour__image {
+  align-self: center;
+  width: 75vw;
+  height: auto;
+}
